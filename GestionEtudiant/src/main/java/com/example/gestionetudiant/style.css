@@ -1,0 +1,44 @@
+/* Styles pour la fenêtre principale */
+.root {
+    -fx-background-color: #f0f0f0; /* Couleur de fond */
+}
+
+/* Style pour le titre */
+.title-label {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333; /* Couleur du texte */
+}
+
+/* Styles pour les boutons */
+.button {
+    -fx-background-color: #4CAF50; /* Couleur de fond */
+    -fx-text-fill: white; /* Couleur du texte */
+    -fx-font-size: 14px;
+    -fx-pref-width: 150px; /* Largeur préférée */
+    -fx-pref-height: 40px; /* Hauteur préférée */
+    -fx-font-weight: bold;
+}
+
+/* Style pour le bouton "Saisir les notes" */
+#enter-grades-button {
+    -fx-background-color: #2196F3; /* Couleur de fond différente */
+}
+
+/* Style pour le bouton "Afficher la liste des étudiants" */
+#show-button {
+    -fx-background-color: #FF5722; /* Couleur de fond différente */
+}
+
+/* Style pour la grille */
+.grid-pane {
+    -fx-padding: 20px;
+    -fx-hgap: 15px; /* Espacement horizontal entre les éléments */
+    -fx-vgap: 10px; /* Espacement vertical entre les éléments */
+}
+
+/* Style pour les labels */
+.label {
+    -fx-font-size: 16px;
+    -fx-text-fill: #555; /* Couleur du texte */
+}
